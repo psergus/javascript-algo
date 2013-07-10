@@ -1,31 +1,5 @@
 
 
-function karatsuba(x,y) {
-    if (x < 10 || x < 10) {
-        return x * y;
-    } 
-    else {
-        var m = Math.ceil(x.toString().length / 2),
-
-        a = Math.floor(x/Math.pow(10,m)),
-        b = x - ( a * Math.pow(10,m)),
-        c = Math.floor(y/Math.pow(10,m)),
-        d = y - ( c * Math.pow(10,m));
-
-        console.log( 'a: ' + a + ' b: ' + b );
-        console.log( 'c: ' + c + ' d: ' + d );
-
-        var ac = karatsuba(a,c),
-        bd = karatsuba(b,d),
-        adbc = karatsuba(a+b,c+d) - ac - bd;
-
-        console.log( ac + ' * 10^' + 2*m + ' + ' + adbc + ' * 10^' + m + ' + ' + bd);
-    
-        return ac * Math.pow(10, 2*m) + adbc * Math.pow(10, m) + bd;
-    }
-}
-
-
 function Karatsuba(num1, num2) {
 	if(parseInt(num1) < 10 || parseInt(num2) < 10) {
 		return parseInt(num1) * parseInt(num2);
