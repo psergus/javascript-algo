@@ -1,0 +1,12 @@
+About Project Euler
+
+Where should I start?
+That depends on your background. In the Problems table you will be able to see how many people have solved each problem. As a general rule of thumb the more people that have solved it, the easier it is.
+
+
+I've written my program but should it take days to get to the answer?
+Absolutely not! Each problem has been designed according to a "one-minute rule", which means that although it may take several hours to design a successful algorithm with more difficult problems, an efficient implementation will allow a solution to be obtained on a modestly powered computer in less than one minute.
+
+
+Does it matter if it takes more than one minute to solve?
+Of course not, but that should provide the impetus to return to the problem and see how you can improve your approach. But remember that once you've solved a particular problem you will be able to access a thread relating to that problem and it is here that you may be able to pick some tips from others that have solved it.
